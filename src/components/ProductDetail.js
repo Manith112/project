@@ -20,7 +20,7 @@ export default function ProductDetail(){
     })
     return (
         <main className="container">
-            {/* <h1>{product.id}</h1> */}
+             <h1>{product.id}</h1> 
             <h2 className="mt-3">{product.title}</h2>
             <p>{product.description}</p>
             <div>

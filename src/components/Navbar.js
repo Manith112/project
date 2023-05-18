@@ -21,11 +21,19 @@ export function Navbar(){
                     </NavLink>
                    
                     <NavLink 
-                        to={"/news"}    
+                        to={"/user"}    
                         className={({isActive}) => isActive ? "navbar-brand text-decoration-none active" : "navbar-brand text-decoration-none"}
                         aria-current="page" >
-                            IT News
+                            User
                     </NavLink>
+
+                    <NavLink 
+                        to={"/Category"}    
+                        className={({isActive}) => isActive ? "navbar-brand text-decoration-none active" : "navbar-brand text-decoration-none"}
+                        aria-current="page" >
+                            Category
+                    </NavLink>
+
                     <NavLink 
                         to={"/contact"}
                         className={({isActive}) => isActive ? "navbar-brand text-decoration-none active" : "navbar-brand text-decoration-none"}
